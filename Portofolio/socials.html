@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Media Sosial</title>
+</head>
+<body>
+    <div class="page">
+        <nav>
+            <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="socials.html">SOCIALS</a></li>
+            </ul>
+        </nav>
+        <div class="media" style="text-align: right;">
+            <h1>Follow and Support&nbsp;<span>Me</span></h1>
+            <h2 class="social-links">
+                <div>
+                    <a href="https://www.instagram.com/adrina7708?igsh=MTRnY3Y2Y3V3NXVucA==">Instagram</a>
+                    <img src="Images/Instagram_icon.png" width="70px" alt="Instagram">
+                </div>
+                <div>
+                    <a href="https://karyakarsa.com/Paper">KaryaKarsa</a>
+                    <img src="Images/karyakarsa.png" width="70px" alt="KaryaKarsa">
+                </div>
+            </h2>
+        </div>
+            <a href="https://www.instagram.com/paperrr._/profilecard/?igsh=MXd2MGg1eXZwdTA3ZA=="><img src="Images/IMG_2273.png" width="150px" class="paper"></a>
+            <img src="Images/heart.png" class="heart">
+    </div>
+    <style>
+        html {
+            font-size: 16px; /* Base size, adjust if needed */
+        }
+    
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+        }
+    
+        .page {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: #eff4fd;
+        }
+    
+        nav {
+            display: flex;
+            width: 85%;
+            margin: auto;
+            padding: 1.5625rem; /* 25px */
+            align-items: flex-end;
+            justify-content: flex-end;
+        }
+    
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            margin-top: 0.3125rem; /* 5px */
+            padding: 0.625rem; /* 10px */
+        }
+    
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+    
+        nav ul li a:hover {
+            color: blue;  
+        }
+    
+        .media {
+            width: 91%;
+            margin: 1.875rem 1.75rem; /* 30px 28px */
+            text-align: right;
+        }
+    
+        .media h1 {
+            font-size: 3.125rem; /* 50px */
+            color: #212121;
+            margin-bottom: 1.25rem; /* 20px */
+        }
+    
+        span {
+            color: mediumslateblue;
+        }
+    
+        .social-links {
+            margin-top: 0.625rem; /* 10px */
+        }
+    
+        .social-links div {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.9375rem; /* 15px */
+            justify-content: flex-end;
+        }
+    
+        .media img {
+            object-fit: contain;
+            margin-left: 0.625rem; /* 10px */
+        }
+    
+        .paper {
+            object-fit: contain;
+            border-radius: 50%;
+            position: absolute;
+            left: 35%;
+            bottom: 40%;
+            transform: translateX(-50%);
+            transition: left 1s;
+        }
+    
+        .paper:hover {
+            left: 50%;
+        }
+    
+        .heart {
+            object-fit: contain;
+            height: 70%;
+            position: absolute;
+            left: 28%;
+            bottom: 12%;
+            transform: translateX(-50%);
+            transition: left 1s;
+        }
+    
+        .heart:hover {
+            left: 21%;
+        }
+    </style>        
+</body>
+</html>

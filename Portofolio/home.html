@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <div class="hero">
+       <nav>
+        <a href="https://cookpad.com/id/resep/3290498-strawberry-cup-cake"><img src="Images/pngwing.com.png" width="50px" class="cupcake"></a>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="socials.html">SOCIALS</a></li>
+        </ul>
+       </nav>
+       <div class="detel">
+        <h1>Adrina Dian <span>Putri Ramadhani</span></h1>
+        <p>Bikin website emang seru, tapi portfolionya kosong.
+            <br>Mending makan odading Mang Oleh.
+            <br>
+            <br> PS: Ada beberapa Easter Eggs di sini loh.
+        </p>
+        <a href="https://www.linkedin.com/in/adrina-dian-putri-ramadhani-62a883323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><button>LINKEDIN</button></a>
+       </div>
+       <div class="images">
+        <a href="https://id.portal-pokemon.com/play/pokedex/0813"><img src="Images/scorbunny card.png" width="250px" height="400px" class="easteregg1"></a>
+        <img src="Images/33. ADRINA MIPA 2 - 2 (1).jpg" width="300px" height="450px" class="Adrina">
+       </div>
+    </div>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    html {
+        font-size: 16px; /* Base size */
+    }
+
+    .hero {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #eff4fd;
+    }
+
+    nav {
+        display: flex;
+        width: 85%;
+        margin: auto;
+        padding: 1.25rem; /* 20px */
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin-top: 0.3125rem, 0; /* 5px */
+        padding: 0.625rem; /* 10px */
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+    }
+
+    nav ul li a:hover {
+        color: blue;  
+    }
+
+    .detel {
+        margin-left: 5rem; /* 80px */
+        margin-top: 8.125rem; /* 130px */
+    }
+
+    .detel h1 {
+        font-size: 3.125rem; /* 50px */
+        color: #212121;
+        margin-bottom: 1.25rem; /* 20px */
+    }
+
+    span {
+        color: orange;
+    }
+
+    .detel p {
+        color: #555;
+        line-height: 1.375; /* 22px */
+    }
+
+    .detel button {
+        background: #212121;
+        margin-top: 1.25rem; /* 20px */
+        padding: 0.9375rem 1.5625rem; /* 15px 25px */
+        border: none;
+        border-radius: 0.625rem; /* 10px */
+        font-size: 1.25rem; /* 20px */
+        font-weight: 600;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .detel button:hover {
+        color: lightskyblue;
+    }
+    
+    .images img {
+        object-fit: contain;
+        height: 70%;
+        position: absolute;
+        left: 79%;
+        bottom: 10%;
+        transform: translateX(-50%);
+        transition: left 1s;
+    }
+
+    .images:hover .Adrina {
+        left: 70%;
+    }
+
+    .images:hover .easteregg1 {
+        left: 84%;
+    }
+    </style>
+</body>
+</html>
